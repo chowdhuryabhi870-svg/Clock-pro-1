@@ -13,24 +13,10 @@
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "screenshots": [
-    {
-      "src": "screenshots/screen1.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Home screen showing main clock UI"
-    },
-    {
-      "src": "screenshots/screen2.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Alarm list screen with multiple alarms"
-    },
-    {
-      "src": "screenshots/screen3.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Stopwatch and timer screen"
-    }
+  { "src": "screenshots/screen1.png", "sizes": "1080x1920", "type": "image/png", "description": "Home screen showing main clock UI" },
+  { "src": "screenshots/screen2.png", "sizes": "1080x1920", "type": "image/png", "description": "Alarm list screen with multiple alarms" },
+  { "src": "screenshots/screen3.png", "sizes": "1080x1920", "type": "image/png", "description": "Stopwatch and timer screen" }
+  
   ],
   "categories": [
     "productivity",
