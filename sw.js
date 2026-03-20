@@ -3,17 +3,20 @@ const urlsToCache = [
   "/",
   "/index.html",
   "/icon-192.png",
-  "/icon-512.png"
+  "/icon-512.png",
+  "/style.css"   // যদি আলাদা css থাকে
 ];
 
-// Install event → cache files
+// Install event → cache everything
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
+    caches.open(CACHE_NAME).then(cache => {
+      return cache.addAll(urlsToCache);
+    })
   );
 });
 
-// Fetch event → serve from cache if offline
+// Fetch event → serve cached first, fallback to network
 self.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request).then(response => {
