@@ -31,5 +31,9 @@
       "type": "image/png",
       "description": "Stopwatch and timer screen"
     }
+  ],
+  "categories": [
+    "productivity",
+    "utilities"
   ]
 }
