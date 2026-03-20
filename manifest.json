@@ -18,6 +18,7 @@
   { "src": "screenshots/screen3.png", "sizes": "1080x1920", "type": "image/png", "description": "Stopwatch and timer screen" }
   
   ],
+  "prefer_related_applications": false
   "categories": [
     "productivity",
     "utilities"
