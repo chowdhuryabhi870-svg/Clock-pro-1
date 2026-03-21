@@ -19,4 +19,11 @@
   ],
   "prefer_related_applications": false,
   "categories": ["utilities", "productivity", "tools"]
+  
+  "dir": "ltr",
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
