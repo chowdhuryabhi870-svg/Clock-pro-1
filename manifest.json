@@ -21,9 +21,21 @@
     }
   ],
 "screenshots": [
-  { "src": "screen1.png", "sizes": "any", "type": "image/jpeg" },
-  { "src": "screen2.png", "sizes": "any", "type": "image/jpeg" },
-  { "src": "screen3.png", "sizes": "any", "type": "image/jpeg" }
+  {
+    "src": "screen1.png",
+    "sizes": "1726x3072",
+    "type": "image/jpeg"
+  },
+  {
+    "src": "screen2.png",
+    "sizes": "1726x3072",
+    "type": "image/jpeg"
+  },
+  {
+    "src": "screen3.png",
+    "sizes": "1726x3072",
+    "type": "image/jpeg"
+  }
 ]
   "prefer_related_applications": false,
   "categories": ["utilities", "productivity", "tools"]
