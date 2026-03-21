@@ -643,6 +643,7 @@ style="width:100%; padding:12px; border-radius:10px; border:1px solid var(--outl
 navigator.serviceWorker.ready.then(reg => {
   return reg.sync.register('sync-clock-data');
 });
+        
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js")
