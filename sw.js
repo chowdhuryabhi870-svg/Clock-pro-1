@@ -43,3 +43,16 @@ async function sendCachedDataToServer() {
     console.log('Would sync request:', request.url);
   }
 }
+self.addEventListener('push', event => {
+  const data = event.data ? event.data.json() : {
+    title: "Clock App",
+    body: "New Notification!"
+  };
+
+  event.waitUntil(
+    self.registration.showNotification(data.title, {
+      body: data.body,
+      icon: 'icon-192.png'
+    })
+  );
+});
