@@ -24,19 +24,19 @@
     {
       "src": "screen1.png",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/jpeg",
       "description": "Home screen"
     },
     {
       "src": "screen2.png",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/jpeg",
       "description": "Alarm screen"
     },
     {
       "src": "screen3.png",
       "sizes": "any",
-      "type": "image/png",
+      "type": "image/jpeg",
       "description": "Timer screen"
     }
   ],
