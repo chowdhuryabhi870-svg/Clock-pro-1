@@ -2,20 +2,43 @@
   "id": "com.chowdhuryabhi.clockpro",
   "name": "Super Clock App",
   "short_name": "Clock",
-  "start_url": ".",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#111111",
   "orientation": "portrait",
   "description": "All-in-one clock app featuring alarms, timer, stopwatch, and world clock.",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ],
   "screenshots": [
-    { "src": "screenshots/screen1.png", "sizes": "1080x1920", "type": "image/png", "description": "Home screen showing main clock UI" },
-    { "src": "screenshots/screen2.png", "sizes": "1080x1920", "type": "image/png", "description": "Alarm list screen" },
-    { "src": "screenshots/screen3.png", "sizes": "1080x1920", "type": "image/png", "description": "Stopwatch and timer screen" }
+    {
+      "src": "screen1.png",
+      "sizes": "any",
+      "type": "image/png",
+      "description": "Home screen"
+    },
+    {
+      "src": "screen2.png",
+      "sizes": "any",
+      "type": "image/png",
+      "description": "Alarm screen"
+    },
+    {
+      "src": "screen3.png",
+      "sizes": "any",
+      "type": "image/png",
+      "description": "Timer screen"
+    }
   ],
   "prefer_related_applications": false,
   "categories": ["utilities", "productivity", "tools"]
