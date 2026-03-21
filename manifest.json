@@ -3,9 +3,6 @@
   "name": "Super Clock App",
   "short_name": "Clock",
   "start_url": "./",
-  "scope": "./",
-"lang": "en",
-"dir": "ltr"
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#111111",
@@ -41,9 +38,15 @@
     }
   ],
   "prefer_related_applications": false,
-  "categories": ["utilities", "productivity", "tools"]
+  "categories": [
+    "utilities",
+    "productivity",
+    "tools"
+  ],
+  "dir": "ltr",
+  "lang": "en",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ]
 }
-
-
- 
-
