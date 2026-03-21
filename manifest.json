@@ -37,6 +37,16 @@
       "type": "image/jpeg"
     }
   ],
-    "prefer_related_applications": false,
-  "categories": ["utilities", "productivity", "tools"]
+  "prefer_related_applications": false,
+  "categories": [
+    "utilities",
+    "productivity",
+    "tools"
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ]
 }
