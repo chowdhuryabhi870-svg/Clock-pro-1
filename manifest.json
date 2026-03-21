@@ -37,9 +37,6 @@
       "type": "image/jpeg"
     }
   ],
-  "prefer_related_applications": false,
-  "categories": [
-    "utilities",
-    "productivity",
-    "tools"
+    "prefer_related_applications": false,
+  "categories": ["utilities", "productivity", "tools"]
 }
