@@ -640,7 +640,9 @@ style="width:100%; padding:12px; border-radius:10px; border:1px solid var(--outl
     <audio id="alarm-sound" loop preload="auto"><source src="https://assets.mixkit.co/active_storage/sfx/1005/1005-preview.mp3"></audio>
 
     <script>
-
+navigator.serviceWorker.ready.then(reg => {
+  return reg.sync.register('sync-clock-data');
+});
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("sw.js")
