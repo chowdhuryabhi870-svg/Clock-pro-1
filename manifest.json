@@ -12,11 +12,23 @@
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
   ],
-  "screenshots": [
-    { "src": "screenshots/screen1.png", "sizes": "1080x1920", "type": "image/png", "description": "Home screen showing main clock UI" },
-    { "src": "screenshots/screen2.png", "sizes": "1080x1920", "type": "image/png", "description": "Alarm list screen" },
-    { "src": "screenshots/screen3.png", "sizes": "1080x1920", "type": "image/png", "description": "Stopwatch and timer screen" }
-  ],
+"screenshots": [
+  {
+    "src": "screen1.png",
+    "sizes": "any",
+    "type": "image/png"
+  },
+  {
+    "src": "screen2.png",
+    "sizes": "any",
+    "type": "image/png"
+  },
+  {
+    "src": "screen3.png",
+    "sizes": "any",
+    "type": "image/png"
+  }
+]
   "prefer_related_applications": false,
   "categories": ["utilities", "productivity", "tools"]
 }
