@@ -1,27 +1,23 @@
-const CACHE_NAME = "clock-app-cache-v1";
+const CACHE_NAME = "clock-cache-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/icon-192.png",
-  "/icon-512.png",
-  "/style.css"   // যদি আলাদা css থাকে
+  "./",
+  "./index.html",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./screen1.png",
+  "./screen2.png",
+  "./screen3.png"
 ];
 
-// Install event → cache everything
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(urlsToCache);
-    })
+    caches.open(CACHE_NAME).then(cache => cache.addAll(urlsToCache))
   );
 });
 
-// Fetch event → serve cached first, fallback to network
 self.addEventListener("fetch", event => {
   event.respondWith(
-    caches.match(event.request).then(response => {
-      return response || fetch(event.request);
-    })
+    caches.match(event.request).then(response => response || fetch(event.request))
   );
 });
 self.addEventListener('sync', event => {
