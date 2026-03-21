@@ -9,43 +9,17 @@
   "orientation": "portrait",
   "description": "All-in-one clock app featuring alarms, timer, stopwatch, and world clock.",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "screenshots": [
-    {
-      "src": "screenshots/screen1.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Home screen showing main clock UI"
-    },
-    {
-      "src": "screenshots/screen2.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Alarm list screen with multiple alarms"
-    },
-    {
-      "src": "screenshots/screen3.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "description": "Stopwatch and timer screen"
-    }
+    { "src": "screenshots/screen1.png", "sizes": "1080x1920", "type": "image/png", "description": "Home screen showing main clock UI" },
+    { "src": "screenshots/screen2.png", "sizes": "1080x1920", "type": "image/png", "description": "Alarm list screen with multiple alarms" },
+    { "src": "screenshots/screen3.png", "sizes": "1080x1920", "type": "image/png", "description": "Stopwatch and timer screen" }
   ],
   "prefer_related_applications": false,
-  "categories": [
-    "utilities",
-    "productivity",
-    "tools"
-  ],
+  "categories": ["utilities", "productivity", "tools"]
+  
   "dir": "ltr",
   "lang": "en",
   "display_override": [
