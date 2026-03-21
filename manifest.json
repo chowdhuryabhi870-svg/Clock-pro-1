@@ -42,11 +42,4 @@
     "utilities",
     "productivity",
     "tools"
-  ],
-  "dir": "ltr",
-  "lang": "en",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone"
-  ]
 }
